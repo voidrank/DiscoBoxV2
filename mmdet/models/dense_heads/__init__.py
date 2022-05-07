@@ -28,6 +28,7 @@ from .vfnet_head import VFNetHead
 from .yolact_head import YOLACTHead, YOLACTProtonet, YOLACTSegmHead
 from .yolo_head import YOLOV3Head
 from .discobox_solov2_head import DiscoBoxSOLOv2Head, DiscoBoxMaskFeatHead
+from .discoboxv2_head import DiscoBoxv2Head
 
 __all__ = [
     'AnchorFreeHead', 'AnchorHead', 'GuidedAnchorHead', 'FeatureAdaption',
@@ -38,5 +39,5 @@ __all__ = [
     'YOLACTSegmHead', 'YOLACTProtonet', 'YOLOV3Head', 'PAAHead',
     'SABLRetinaHead', 'CentripetalHead', 'VFNetHead', 'TransformerHead',
     'StageCascadeRPNHead', 'CascadeRPNHead', 'EmbeddingRPNHead',
-    'DiscoBoxSOLOv2Head', 'DiscoBoxMaskFeatHead'
+    'DiscoBoxSOLOv2Head', 'DiscoBoxMaskFeatHead', 'DiscoBoxv2Head',
 ]
